@@ -1,0 +1,25 @@
+title: Machan Codes
+description: Home page of Machan Codes.
+url: "https://machancodes.github.io"
+baseurl: ""
+
+github_username: machancodes
+email: machan.codes@gmail.com
+logo: /assets/images/logo.png
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - assets/images/final.png
+  - vendor/
+  - .bundle/

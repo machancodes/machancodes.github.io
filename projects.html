@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+description: Things I've built and am working on.
+---
+<p class="tag">// projects</p>
+<h1>Projects</h1>
+<p class="lead">Things I've built, am building, or am poking at for fun.</p>
+
+<h2>All projects</h2>
+<div class="cards">
+  {% for project in site.data.projects %}
+  {% include project-card.html project=project %}
+  {% endfor %}
+</div>
