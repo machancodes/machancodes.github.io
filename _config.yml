@@ -7,6 +7,16 @@ github_username: machancodes
 email: machan.codes@gmail.com
 logo: /assets/images/logo.png
 
+twitter:
+  username: MachanCodes
+  card: summary
+
+social:
+  name: Machan Codes
+  links:
+    - https://github.com/machancodes
+    - https://x.com/MachanCodes
+
 defaults:
   - scope:
       path: ""
